@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar",
+  "spider": "http://119.8.52.208/custom_spider.jar?r=1",
   "sites": [
    
     
@@ -162,16 +162,7 @@
       "searchable": 1,
       "ext": "https://api-aws.11ty.top"
     },
- {
-      "key": "DNSP_spider",
-      "name": "酷酷影视",
-      "api": "csp_Dnsp",
-      "type": 3,
-      "filterable": 1,
-      "quickSearch": 1,
-      "searchable": 1,
-      "ext": "http://121.62.19.116:1996"
-    },
+ 
   
     {
       "key": "csp_Kuaikan",
@@ -209,17 +200,7 @@
       "quickSearch": 1,
       "filterable": 1
     },
-    {
-      "key": "sp293",
-      "name": "SP293影视",
-      "type": 3,
-      "api": "csp_SP293",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
-   
-
+     
     {
       "key": "csp_aidi_api",
       "name": "爱迪影视(API)",
@@ -411,7 +392,7 @@
         "连续剧",
         "电影"
       ],
- "ext":"dldYWXFObkhNTWlsV1pMdFNSSyN0ME1JdzVJQVJyY3I=$$$Q2hpbko5UzdvNnNZbU1WTQ==$$$aHR0cDovL2FwaS50dDU4LnR2L2NvbmZpZy9uZXd0di5qc29uP3NzPQ=="
+ "ext":"vWXYqNnHMMilWZLtSRK#t0MIw5IARrcMqiaojiChinJ9S7o6sYmMVW"
 
     },
     {
