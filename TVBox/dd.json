@@ -2,23 +2,17 @@
   "spider": "http://119.8.52.208/custom_spider.jar?r=1",
   "sites": [
    
-    
     {
-      "key": "csp_kunyu77",
-      "name": "鲲娱77",
+      "key": "csp_BuLei",
+      "name": "布蕾影院",
       "type": 3,
-      "api": "csp_Kunyu77",
-      "playerType": 2,
+      "api": "csp_BuLei2",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "categories": [
-        "动漫",
-        "综艺",
-        "电视剧",
-        "电影"
-      ]
+      "ext": "http://222.211.73.177:1818$$$/api.php/app/"
     },
+    
 
      {
       "key": "csp_ikanbot",
@@ -92,7 +86,22 @@
         "音乐"
       ]
     },
-   
+   {
+      "key": "csp_kunyu77",
+      "name": "鲲娱77",
+      "type": 3,
+      "api": "csp_Kunyu77",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动漫",
+        "综艺",
+        "电视剧",
+        "电影"
+      ]
+    },
     {
       "key": "1080",
       "name": "1080",
@@ -127,7 +136,7 @@
 
   {
       "key": "csp_量子资源",
-      "name": "快速┃量子资源",
+      "name": "量子资源",
       "type": 1,
       "api": "https://cj.lziapi.com/api.php/provide/vod/",
       "playerType": 2,
@@ -137,7 +146,7 @@
       "categories": ["国产剧", "韩国剧", "欧美剧", "香港剧", "台湾剧", "日本剧", "海外剧", "泰国剧", "记录片", "大陆综艺", "港台综艺", "日韩综艺", "欧美综艺"]
     }, {
       "key": "csp_明帝影视",
-      "name": "️快速┃明帝影视",
+      "name": "️明帝影视",
       "type": 1,
       "api": "https://ys.md214.cn/api.php/provide/vod/",
       "playerType": 2,
