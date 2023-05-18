@@ -1,5 +1,5 @@
 {
-  "spider": "http://119.8.52.208/custom_spider.jar?r=1",
+  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230518",
   "sites": [
    
     {
