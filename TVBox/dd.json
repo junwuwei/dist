@@ -33,6 +33,19 @@
       "quickSearch": 1,
       "filterable": 1
     },
+{
+      "key": "csp_realku",
+      "name": "酷云(API)",
+      "type": 3,
+      "api": "csp_XiaoGui",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://kuyun.realku.cn$$$/api.php/app/"
+    },
+     
+    
     {
       "key": "csp_LiteApple",
       "name": "小苹果",
@@ -449,6 +462,17 @@
       "quickSearch": 0,
       "filterable": 0
     },
+
+    {
+      "key": "t4_CNTV",
+      "name": "央视大全",
+      "type": 3,
+      "api": "csp_CNTV",
+      "searchable": 0,
+      "quickSearch": 0,
+      "filterable": 0
+    },
+
     {
       "key": "T4直播转点播jundie",
       "name": "电视点播Ray",
