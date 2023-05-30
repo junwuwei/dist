@@ -276,7 +276,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://aidiapp.xyz"
+      "ext": "https://aidiapp.xyz$$$/xgapp.php/v2/"
     },
     {
       "key": "csp_tkys_api",
@@ -287,7 +287,7 @@
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
-      "ext": "https://www.tkznp.com",
+      "ext": "https://www.tkznp6.com$$$/xgapp.php/v2/",
       "categories": [
         "动漫",
         "综艺",
@@ -438,7 +438,7 @@
       "name": "图图TV",
       "type": 3,
       "api": "csp_AppTT",
- "playerType": 2,
+     "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -466,41 +466,10 @@
       "key": "t4_CNTV",
       "name": "央视大全",
       "type": 3,
-      "api": "csp_CNTV",
+      "api": "csp_CCTV",
       "searchable": 0,
       "quickSearch": 0,
       "filterable": 0
-    },
-
-    {
-      "key": "T4直播转点播jundie",
-      "name": "电视点播Ray",
-      "type": 3,
-      "api": "csp_TvLive",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://home.jundie.top:81/ray/tvlive.txt"
-    },
-    {
-      "key": "T4直播转点播RayLiang9",
-      "name": "电视点播l9",
-      "type": 3,
-      "api": "csp_TvLive",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://raw.iqiq.io/RayLiang9/0/main/live/live.txt"
-    },
-   {
-      "key": "smb4nas",
-      "name": "smb共享",
-      "type": 3,
-      "api": "csp_Smb4nas",
-      "searchable": 0,
-      "changeable": 0,
-      "filterable": 0,
-      "ext": "smb://tv:123456@192.168.3.3/video/"
     },
    
     {
@@ -516,18 +485,55 @@
   ],
   "lives": [
     {
-      "group": "redirect",
-      "channels": [
-        {
-          "name": "redirect",
-          "urls": [
-            "proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcua2dpdGh1Yi5jb20vUmF5TGlhbmc5LzAvbWFpbi9saXZlL2xpdmUudHh0"
-          ]
-        }
-      ]
+      "name": "半路捡来的",
+      "type": 0,
+      "url": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/live.txt",
+      "epg": "http://epg.112114.xyz/?ch={name}&date={date}",
+      "logo":"https://epg.112114.xyz/logo/{name}.png"
     }
   ],
   "rules": [
+
+{
+      "name": "量子廣告",
+      "hosts": [
+        "vip.lz",
+        "hd.lz"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "非凡廣告",
+      "hosts": [
+        "vip.ffzy",
+        "hd.ffzy"
+      ],
+      "regex": [
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3.333333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+      ]
+    },
+    {
+      "name": "火山嗅探",
+      "hosts": [
+        "huoshan.com"
+      ],
+      "regex": [
+        "item_id="
+      ]
+    },
+    {
+      "name": "抖音嗅探",
+      "hosts": [
+        "douyin.com"
+      ],
+      "regex": [
+        "is_play_url="
+      ]
+    },
     {
       "host": "dyxs20.com",
       "rule": [
