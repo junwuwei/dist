@@ -2,57 +2,10 @@
   "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230518",
   "sites": [
    
-    {
-      "key": "csp_BuLei",
-      "name": "布蕾影院",
-      "type": 3,
-      "api": "csp_BuLei2",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "http://222.211.73.177:1868$$$/api.php/app/"
-    },
+   
     
 
-     {
-      "key": "csp_ikanbot",
-      "name": "爱看机器人",
-      "type": 3,
-      "api": "csp_Ikanbot",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 0
-    },
-    {
-      "key": "csp_mianhua",
-      "name": "棉花视频",
-      "type": 3,
-      "api": "csp_MianHua",
-      "searchable": 1,
-      "playerType": 2,
-      "quickSearch": 1,
-      "filterable": 1
-    },
      
-    
-    {
-      "key": "csp_LiteApple",
-      "name": "小苹果",
-      "type": 3,
-      "api": "csp_LiteApple",
-      "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫",
-        "综艺",
-        "连续剧",
-        "电影"
-      ]
-    },
     {
       "key": "IQIYI",
       "name": "爱奇艺",
@@ -103,6 +56,55 @@
         "教育",
         "音乐"
       ]
+    },
+{
+      "key": "csp_ikanbot",
+      "name": "爱看机器人",
+      "type": 3,
+      "api": "csp_Ikanbot",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0
+    },
+    {
+      "key": "csp_mianhua",
+      "name": "棉花视频",
+      "type": 3,
+      "api": "csp_MianHua",
+      "searchable": 1,
+      "playerType": 2,
+      "quickSearch": 1,
+      "filterable": 1
+    },
+     
+    
+    {
+      "key": "csp_LiteApple",
+      "name": "小苹果",
+      "type": 3,
+      "api": "csp_LiteApple",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories": [
+        "动漫",
+        "综艺",
+        "连续剧",
+        "电影"
+      ]
+    },
+ {
+      "key": "csp_BuLei",
+      "name": "布蕾影院",
+      "type": 3,
+      "api": "csp_BuLei2",
+      "playerType": 2,
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://222.211.73.177:1868$$$/api.php/app/"
     },
    {
       "key": "csp_kunyu77",
