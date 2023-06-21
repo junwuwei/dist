@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230518",
+  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230621;md5;cb240bf4c158721c686079e7aa223af9",
   "sites": [
    
    
@@ -249,16 +249,8 @@
       "filterable": 1,
       "ext": "https://www.bttwo.net"
     },
-    {
-      "key": "csp_smdyy",
-      "name": "神马影视",
-      "type": 3,
-      "api": "csp_Smdyy",
- "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1
-    },
+    
+     
      
     {
       "key": "csp_aidi_api",
@@ -494,7 +486,8 @@
         "hd.lz"
       ],
       "regex": [
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.433333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+ "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
@@ -506,7 +499,8 @@
       "regex": [
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:6.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
         "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:3.333333,[\\s\\S]*?#EXT-X-DISCONTINUITY",
-        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY"
+        "#EXT-X-DISCONTINUITY\\r*\\n*#EXTINF:1.666667,[\\s\\S]*?#EXT-X-DISCONTINUITY",
+ "#EXTINF.*?\\s+.*?1o.*?\\.ts\\s+"
       ]
     },
     {
