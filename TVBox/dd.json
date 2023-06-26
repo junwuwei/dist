@@ -1,5 +1,5 @@
 {
-  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230621;md5;cb240bf4c158721c686079e7aa223af9",
+  "spider": "https://raw.iqiq.io/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230621;md5;14c75aee2cfcec5058bf756da9abab38",
   "sites": [
    
    
@@ -67,17 +67,7 @@
       "quickSearch": 1,
       "filterable": 0
     },
-   {
-      "key": "csp_BuLei",
-      "name": "布蕾影院",
-      "type": 3,
-      "api": "csp_BuLei2",
-      "playerType": 1,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "ext": "https://aljx.f3322.net"
-    },
+   
     {
       "key": "csp_如如",
       "name": "如如",
@@ -449,24 +439,7 @@
       "filterable": 1,
       "ext": "https://www.ysdqgf.com"
     },
-{
-      "key": "csp_AppTT2",
-      "name": "图图TV",
-      "type": 3,
-      "api": "csp_AppTT",
-     "playerType": 2,
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "categories": [
-        "动漫",
-        "综艺",
-        "连续剧",
-        "电影"
-      ],
- "ext":"JWXYqZnHWMilNZLtSRK#tzMIw9IARRcMqiaojiCMinJ0S7o6sYZMVW"
 
-    },
     {
       "key": "csp_CupfoxCC",
       "name": "茶杯狐cc[搜索]",
