@@ -1,6 +1,6 @@
 {
   "spider": 
-"https://ghproxy.com/https://raw.githubusercontent.com/junwuwei/dist/master/TVBox/custom_spider.jar?t=20230621;md5;14c75aee2cfcec5058bf756da9abab38",
+"./custom_spider.jar?t=20230621;md5;14c75aee2cfcec5058bf756da9abab38",
   "sites": [
    
    
