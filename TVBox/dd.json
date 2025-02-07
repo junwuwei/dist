@@ -126,7 +126,7 @@
       "key": "1080",
       "name": "1080",
       "type": 1,
-      "api": "https://api.1080zyku.com/inc/apijson.php?ac=list",
+      "api": "https://api.yzzy-api.com/inc/apijson.php",
 "playerType": 2,
       "searchable": 1,
       "quickSearch": 1,
